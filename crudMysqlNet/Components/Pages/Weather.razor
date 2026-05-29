@@ -1,7 +1,8 @@
 ﻿@page "/weather"
 @using Microsoft.EntityFrameworkCore
-@inject ApplicationDbContext _context       //conexión con la bd a través de Context, lo que creamos antes lo uso ahora
-<PageTitle>EJEMPLOS</PageTitle>             //es decir, dame acceso a la bd
+@using ControlConjuntoServer.Server.Data
+@inject ApplicationDbContext _context       //conexión con la bd a través de Context, lo que creamos antes lo uso ahora, es decir, dame acceso a la bd
+<PageTitle>EJEMPLOS</PageTitle>             
 
 @* css normal  *@
 <style>
